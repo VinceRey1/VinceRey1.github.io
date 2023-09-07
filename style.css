@@ -82,19 +82,22 @@ main {
     flex: 1;
     padding: 15px;
     border-color: grey;
-    color: #fff;
+    color: hwb(0 100% 0%);
+    font-size: 24px;
 }
 
 /* portfolio styles */
-.interests {
-    border-style: dashed;
+.intrests {
     margin: auto;
+    font-size: 20px;
 }
 
 h2,
 h3 {
     margin: 0px;
+    font-size: 25px;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
+    
 }
 
 @-webkit-keyframes glow {
